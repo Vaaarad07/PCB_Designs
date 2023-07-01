@@ -1,0 +1,6 @@
+inverter_vcu-backups/
+/fp-info-cache
+/inverter_vcu-NPTH.drl
+/inverter_vcu-PTH.drl
+/inverter_vcu.kicad_prl
+/.gitignore
