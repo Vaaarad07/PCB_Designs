@@ -1,6 +1,6 @@
-#/.gitignore
+/.gitignore
 CanSat_V1/
 
 
 # for mvcu folder 
-.kicad_prl
+#.kicad_prl
