@@ -1,0 +1,12 @@
+This folder contains KiCad PCB files for a custom Board.
+
+This is a 2 layer STM32F103C8T6 custom test board.
+T 
+Following are some of the features of the board -
+	 Powered through the DB9 port (Master board) or from power input (7-36V) or USB.
+	 Separate 5V and 3.3V buses
+	 CAN bus
+	 7-segment display
+	 4-pin debugger/programmer connector
+	 UART, SPI, I2C, ADC ports
+	 
