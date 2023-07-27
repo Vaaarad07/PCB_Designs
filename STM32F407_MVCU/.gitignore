@@ -1,0 +1,12 @@
+#/.gitignore
+/MVCU_COPY.kicad_prl
+/MVCU_F407.csv
+/MVCU_F407.kicad_prl
+/MVCU_F407.xml
+/fp-info-cache
+/how-to-import.htm
+/STM32F407_MVCU/gerbers.zip
+/gerbers.zip
+MVCU_F407-backups/
+gerbers_mvcu/
+single_gerber/
