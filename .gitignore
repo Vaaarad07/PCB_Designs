@@ -1,0 +1,11 @@
+/.gitignore
+#/.f103_V2.png
+#/.inverter_vcu.png
+/.MVCU_F407.png
+#/.VCU.png
+CanSat_V1/
+
+
+# for mvcu folder 
+#.kicad_prl
+.gitignore
