@@ -39,7 +39,7 @@ This is a custom made 2-Layer board using
 - Hardware reset
 - ***UART, SPI, I2C, ADC*** ports.
 
-![[VCU.png]]
+![VCU_IMAGE](./images/VCU.png)
 
 ## STM32F103-Inverter-VCU
 This is a custom made 2-Layer board using 
@@ -52,7 +52,7 @@ This is a custom made 2-Layer board using
 - Hardware reset.
 - ***UART, SPI, I2C, ADC*** ports.
 
-![[inverter_vcu.png]]
+![INV_IMAGE](./images/inverter_vcu.png)
 
 ## STM32F103-Test-board
 This is a custom made 2-Layer board using the ***STM32F103*** for testing procedures of various peripherals of the controller and verification of the designed architecture of a vehicle control system.
@@ -63,4 +63,4 @@ This is a custom made 2-Layer board using the ***STM32F103*** for testing proced
 - 7-segment display
 - Hardware reset.
 
-![[f103_V2.png]]
+![TEST_IMAGE](./images/f103_V2.png)
