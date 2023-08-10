@@ -26,7 +26,7 @@ This is a custom made ***4-layer*** board using ***STM32F407*** which is a part 
 - ***UART, SPI, ADC, DAC, I2C*** Connections
 - 10 user LEDs with power-on LEDs.
 
-![MVCU_IMAGE](MVCU_F407.png)
+![MVCU_IMAGE](./images/MVCU_F407.png)
 
 ## STM32F103-VCU
 This is a custom made 2-Layer board using 
