@@ -54,7 +54,7 @@ This is a custom made 2-Layer board using
 
 ![INV_IMAGE](./images/inverter_vcu.png)
 
-## stm32f103-test-board
+## STM32f103-test-board
 This is a custom made 2-Layer board using the ***STM32F103*** for testing procedures of various peripherals of the controller and verification of the designed architecture of a vehicle control system.
 ### Following are some of the features of the board :
 - Powered through either the DB9 connector(5V) or the on-board power input (7-36V) which is further divided into two separate buses of 5V and 3.3V respectively.
