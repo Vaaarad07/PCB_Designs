@@ -13,11 +13,11 @@ All of the designs are completely produced in KiCad 6, and each project director
 I am open for any kind of feedback, suggestion or discussion.
 
 ## STM32407-MVCU
-This is a custom made ***4-layer*** board using ***STM32F407*** which is a part of a vehicle control system as the Master control Unit. The board connects to 5 separate vehicle control unit boards using DB9 cables and connectors over ***CAN bus***,which are responsible for handling their sub-system specific functions.
+This is a custom made ***4-layer*** board using ***STM32F407***, designed for a [Vegapod Hyperloop](https://linktr.ee/vegapodhyperloop?fbclid=PAAabTRk45duWqCT2ES2nHaDbXQsYjndH2ZH-L-wuU1rlmgXJXES0c9xlna4E_aem_AQGd-q00TIai_09fVyH2A-mdNry7ZboQbuSte4yDi2yoPS_CXYrpFN4jU0P01uli4RE), a student team. The board is a part of a vehicle control system as the Master control Unit. The board connects to 5 separate vehicle control unit boards using DB9 cables and connectors over ***CAN bus***,which are responsible for handling their sub-system specific functions.
 ### Following are some of the features of the board : 
 - 9-36V input power supply, which is divided into 2 separate buses of 5V and 3.3V respectively using power regulators
 - 5 DB9 ports to connect the VCUs with CAN bus connections along with reserved GPIOs.
-- DB9 port with RS232 to serial converter to connect an INS,[Pollux 2](https://aeronsystems.com/ins/pollux-2/) 
+- DB9 port with RS232 to serial converter to connect an INS, [Pollux 2](https://aeronsystems.com/ins/pollux-2/) 
 - On-board RF-transceiver mount.
 - 7-segment display
 - SD Card slot
@@ -30,7 +30,7 @@ This is a custom made ***4-layer*** board using ***STM32F407*** which is a part 
 
 ## STM32F103-VCU
 This is a custom made 2-Layer board using 
-***STM32F103*** which is a part of a vehicle control system as a vehicle control Unit. The board connects to the Master vehicle control unit using DB9 cable and connector over ***CAN bus*** 
+***STM32F103***, designed for a [Vegapod Hyperloop](https://linktr.ee/vegapodhyperloop?fbclid=PAAabTRk45duWqCT2ES2nHaDbXQsYjndH2ZH-L-wuU1rlmgXJXES0c9xlna4E_aem_AQGd-q00TIai_09fVyH2A-mdNry7ZboQbuSte4yDi2yoPS_CXYrpFN4jU0P01uli4RE), a student team. The board is a part of a vehicle control system as a vehicle control Unit. The board connects to the Master vehicle control unit using DB9 cable and connector over ***CAN bus*** 
 ### Following are some of the features of the board : 
 - Powered through either the Master control unit (5V) or from on-board power input (7-36V) which is further divided into two separate buses of 5V and 3.3V respectively.
 - Connects to the Master control unit over CAN bus and reserved GPIOs.
@@ -43,7 +43,7 @@ This is a custom made 2-Layer board using
 
 ## STM32F103-Inverter-VCU
 This is a custom made 2-Layer board using 
-***STM32F103*** which is a part of a vehicle control system as a vehicle control Unit responsible for control of the ***inverter sub-system***. The board connects to the Master vehicle control unit using DB9 cable and connector over ***CAN bus*** 
+***STM32F103***, designed for a [Vegapod Hyperloop](https://linktr.ee/vegapodhyperloop?fbclid=PAAabTRk45duWqCT2ES2nHaDbXQsYjndH2ZH-L-wuU1rlmgXJXES0c9xlna4E_aem_AQGd-q00TIai_09fVyH2A-mdNry7ZboQbuSte4yDi2yoPS_CXYrpFN4jU0P01uli4RE), a student team. The board is a part of a vehicle control system as a vehicle control Unit responsible for control of the ***inverter sub-system***. The board connects to the Master vehicle control unit using DB9 cable and connector over ***CAN bus*** 
 ### Following are some of the features of the board : 
 - Powered through either the Master control unit (5V) or from on-board power input (7-36V) which is further divided into two separate buses of 5V and 3.3V respectively.
 - Connects to the Master control unit over CAN bus and reserved GPIOs.
@@ -55,7 +55,7 @@ This is a custom made 2-Layer board using
 ![INV_IMAGE](./images/inverter_vcu.png)
 
 ## STM32f103-Test-Board
-This is a custom made 2-Layer board using the ***STM32F103*** for testing procedures of various peripherals of the controller and verification of the designed architecture of a vehicle control system.
+This is a custom made 2-Layer board using the ***STM32F103*** , designed for a [Vegapod Hyperloop](https://linktr.ee/vegapodhyperloop?fbclid=PAAabTRk45duWqCT2ES2nHaDbXQsYjndH2ZH-L-wuU1rlmgXJXES0c9xlna4E_aem_AQGd-q00TIai_09fVyH2A-mdNry7ZboQbuSte4yDi2yoPS_CXYrpFN4jU0P01uli4RE), a student team. The board is designed for testing procedures of various peripherals of the controller and verification of the designed architecture of a vehicle control system.
 ### Following are some of the features of the board :
 - Powered through either the DB9 connector(5V) or the on-board power input (7-36V) which is further divided into two separate buses of 5V and 3.3V respectively.
 - ***CAN, UART, SPI, I2C, ADC, PWM*** peripheral ports.
