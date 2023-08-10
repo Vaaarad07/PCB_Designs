@@ -1,18 +1,18 @@
 # PCB Design Files
 
 ## Projects
-- [About](#About)
-- [STM32F407 MVCU](#STM32F407-MVCU)
-- [STM32F103 VCU](#STM32F103-VCU)
-- [STM32F103 Inverter VCU](#STM32F103-Inverter-VCU)
+- [About](#about)
+- [STM32F407 MVCU](#stm32f407-mvcu)
+- [STM32F103 VCU](#stm32f103-vcu)
+- [STM32F103 Inverter VCU](#stm32f103-inverter-vcu)
 - [STM32F103 Test board](#stm32f103-test-board)
 
-## About 
+## about 
 This repo contains the PCB files designed by [@Vaaarad07](https://github.com/Vaaarad07).
 All of the designs are completely produced in KiCad 6, and each project directory contains the respective  KiCad schematic and layout files. All of the PCB projects are manufactured and tested for their respective functionalities.
 I am open for any kind of feedback, suggestion or discussion.
 
-## STM32F407-MVCU
+## stm32f407-mvcu
 This is a custom made ***4-layer*** board using ***STM32F407*** which is a part of a vehicle control system as the Master control Unit. The board connects to 5 separate vehicle control unit boards using DB9 cables and connectors over ***CAN bus***,which are responsible for handling their sub-system specific functions.
 ### Following are some of the features of the board : 
 - 9-36V input power supply, which is divided into 2 separate buses of 5V and 3.3V respectively using power regulators
@@ -28,7 +28,7 @@ This is a custom made ***4-layer*** board using ***STM32F407*** which is a part 
 
 ![MVCU_IMAGE](./images/MVCU_F407.png)
 
-## STM32F103-VCU
+## stm32f103-vcu
 This is a custom made 2-Layer board using 
 ***STM32F103*** which is a part of a vehicle control system as a vehicle control Unit. The board connects to the Master vehicle control unit using DB9 cable and connector over ***CAN bus*** 
 ### Following are some of the features of the board : 
@@ -41,7 +41,7 @@ This is a custom made 2-Layer board using
 
 ![VCU_IMAGE](./images/VCU.png)
 
-## STM32F103-Inverter-VCU
+## stm32f103-inverter-vcu
 This is a custom made 2-Layer board using 
 ***STM32F103*** which is a part of a vehicle control system as a vehicle control Unit responsible for control of the ***inverter sub-system***. The board connects to the Master vehicle control unit using DB9 cable and connector over ***CAN bus*** 
 ### Following are some of the features of the board : 
