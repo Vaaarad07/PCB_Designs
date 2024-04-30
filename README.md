@@ -2,6 +2,7 @@
 
 ## Projects
 - [About](#about)
+- [Cyclometer](#cyclometer)
 - [STM32F407 MVCU](#stm32f407-mvcu)
 - [STM32F103 VCU](#stm32f103-vcu)
 - [STM32F103 Inverter VCU](#stm32f103-inverter-vcu)
@@ -12,6 +13,15 @@ This repo contains the PCB files designed by [@Vaaarad07](https://github.com/Vaa
 All of the designs are completely produced in KiCad 6, and each project directory contains the respective  KiCad schematic and layout files. All of the PCB projects are manufactured and tested for their respective functionalities.
 I am open for any kind of feedback, suggestion or discussion.
 
+## Cyclometer 
+Cyclometer is a minimal dashhborad for bicycles used to accurately measure, store and display the speed, distance & time of the bike rides.
+The board uses **STM32F446** controller.
+
+![cyclometer_img](./Cyclometer/Cyclometer_v1.png)
+
+
+## RP2040 
+![rp2040](./RP2040/img.png)
 ## STM32407-MVCU
 This is a custom made ***4-layer*** board using ***STM32F407***, designed for [Vegapod Hyperloop](https://linktr.ee/vegapodhyperloop?fbclid=PAAabTRk45duWqCT2ES2nHaDbXQsYjndH2ZH-L-wuU1rlmgXJXES0c9xlna4E_aem_AQGd-q00TIai_09fVyH2A-mdNry7ZboQbuSte4yDi2yoPS_CXYrpFN4jU0P01uli4RE), a student team. The board is a part of a vehicle control system as the Master control Unit. The board connects to 5 separate vehicle control unit boards using DB9 cables and connectors over ***CAN bus***,which are responsible for handling their sub-system specific functions.
 ### Following are some of the features of the board : 
