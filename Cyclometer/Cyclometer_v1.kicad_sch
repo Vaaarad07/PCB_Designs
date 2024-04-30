@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 534769e3-e95a-42fd-8ea0-c181b93849c9)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 19.05 83.82) (size 88.9 52.07) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 36e50d28-d5d6-4fcf-a49f-432ff5e7dfc6)
+    (property "Sheetname" "MCU" (at 19.05 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 19.05 136.4746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Cyclometer_v1"
+        (path "/534769e3-e95a-42fd-8ea0-c181b93849c9" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 21.59) (size 87.63 53.34) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f97b8519-e8e2-4724-bae7-6bfcc33a5758)
+    (property "Sheetname" "Power" (at 19.05 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 19.05 75.5146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Cyclometer_v1"
+        (path "/534769e3-e95a-42fd-8ea0-c181b93849c9" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
